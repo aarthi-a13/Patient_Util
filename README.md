@@ -162,18 +162,6 @@ mvn clean install
 
 This will compile the code, run tests, and install the artifact to your local Maven repository.
 
-## Development Guidelines
-
-- Use Java records for data models where appropriate
-- Use Lombok annotations to reduce boilerplate code
-- Implement centralized exception handling using @ControllerAdvice
-- Add comprehensive logging using Log4j2
-- Follow the builder pattern for complex objects
-- Provide JavaDocs for all methods and classes
-- Use Spring REST Client instead of RestTemplate
-- Ensure methods have no more than 7 arguments
-- Ensure methods contain no more than 10 conditional blocks
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
